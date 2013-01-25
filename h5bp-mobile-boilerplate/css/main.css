@@ -1,0 +1,510 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #551a8b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #06e;
+    text-decoration: none;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+#container{
+	background: url('../img/yourMoveBG.jpg') no-repeat 0 0 #313131;
+	width: 320px;
+	height: 460px;
+}
+
+#containerVideoRina{
+	background: url('../img/videoRinaBG.jpg') no-repeat 0 0 #313131;
+	width: 320px;
+	height: 460px;
+}
+
+
+
+#yourMove  {
+	background: url('../img/sprite.png') no-repeat -2px -130px;
+	width: 298px;
+	height: 86px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+}
+
+
+#bringModels {
+	background: url('../img/sprite.png') no-repeat -10px -96px;
+	width: 276px;
+	height: 32px;
+	margin: 0 auto;
+	position: relative;
+    top: 90px;
+}
+
+#noMag {
+	background: url('../img/sprite.png') no-repeat -10px -249px;
+	width: 277px;
+	height: 51px;
+	position: relative;
+    top: 225px;
+    margin: 0 auto;
+}
+
+
+#footArea {
+	//background: url('../img/sprite.png') no-repeat -10px -310px;
+	height: 40px;
+    width: 100%;
+    position: relative;
+    top: 230px;	
+    display: none;
+}
+
+#footLinks {
+     margin: 0 auto;
+     width: 320px;
+     padding: 0;
+}
+
+#footLinks li {
+	float: left;
+    height: 40px;
+    list-style: none;
+    
+}
+
+
+#slideUpLinksContainer {
+    background: url("../img/sprite.png") no-repeat scroll -10px -354px transparent;
+    height: 21px;
+   // position: fixed;
+    //bottom: 0;
+    width: 320px;
+}
+
+.slideUpLinks {
+    background: url("../img/sprite.png") no-repeat scroll -10px -67px transparent;
+    height: 21px;
+    margin: 0 auto;
+    width: 298px;
+}
+
+.slideUpLinksOff {
+	background: url('../img/sprite.png') no-repeat -11px -381px;
+    height: 21px;
+    margin: 0 auto;
+    width: 298px;
+}
+
+.blocklink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}​
+
+#slideUpToggle {
+    background-color: #000000;
+    border: 1px solid red;
+    color: white;
+    float: left;
+    height: 50px;
+    margin: 16px;
+    padding: 8px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+#playIcon {
+    background: url("../img/sprite.png") no-repeat scroll -10px -10px transparent;
+    height: 55px;
+    margin: 0 auto;
+    position: relative;
+    top: 172px;
+    width: 54px;
+}
+
+
+#lineupTitle {
+    background: url("../img/sprite.png") no-repeat scroll -9px -223px transparent;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+    width: 216px;
+}
+
+#lineupTitleRina {
+    background: url("../img/sprite.png") no-repeat scroll -313px -10px transparent;
+    height: 18px;
+    margin: 0 auto;
+    position: relative;
+    top: 165px;
+    width: 101px;
+}
+
+
+
+
+
+
+
+
+
+
+#shareText  {
+	background: url('../img/sprite.png') no-repeat -297px -241px;
+	width: 175px;
+	height: 38px;
+	margin: 0 auto;
+	position: relative;
+    top: 160px;
+}
+
+
+
+#socialIcons {
+   // border: 1px solid white;
+    height: 43px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 170px;
+    width: 267px;
+}
+
+
+#socialIcons li{
+float: left;
+list-style: none;
+margin: 0 30px 0 0px;
+}
+
+#socialIcons li:last-child {
+margin: 0;
+}
+
+#fb {
+	background: url('../img/sprite.png') no-repeat -456px -1px;
+	width: 44px;
+	height: 43px;
+}
+
+
+#tweet {
+	background: url('../img/sprite.png') no-repeat -456px -45px;
+	width: 44px;
+	height: 43px;
+}
+
+#google {
+	background: url('../img/sprite.png') no-repeat -456px -89px;
+	width: 44px;
+	height: 43px;
+}
+
+
+#email {
+	background: url('../img/sprite.png') no-repeat -456px -133px;
+	width: 44px;
+	height: 43px;
+}
+
+
+#copyLink {
+background: url("../img/sprite.png") no-repeat scroll -7px -405px transparent;
+height: 30px;
+position: relative;
+width: 289px;
+margin: 0 auto;
+top: 185px;
+}
+
+#copyLink input {
+background: none repeat scroll 0 0 transparent;
+border: medium none;
+height: 20px;
+position: absolute;
+right: 4px;
+top: 5px;
+width: 183px;
+font-size: 13px;
+}
+
+
+
+
+
+#aboutTitle {
+background: url('../img/sprite.png') no-repeat -331px -385px;
+width: 147px;
+height: 17px;
+margin: 0 0 0 10px;
+top: 50px;
+position: relative;
+}
+
+#aboutText {
+margin: 5px 0 20px 10px;
+font-size: 13px;
+line-height: 15px;
+color: #FFF;
+width: 95%;	
+position: relative;
+top: 50px;
+}
+
+#aboutVideo {
+margin: 0 auto;
+position: relative;
+top: 50px;
+width: 303px;
+}
+
+#toc {
+margin: 0 0 0 10px;
+font-size: 10px;
+line-height: 13px;
+color: #FFF;
+width: 231px;
+height: 25px;
+position: relative;
+top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#replayArea {
+    height: 345px;
+    width: 320px;
+
+}
+
+
+#replayRina{
+width: 106px;
+float: left;
+}
+
+#replayJodi{
+width: 110px;
+float: left;
+}
+
+
+#replayAmber{
+width: 104px;
+float: left;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Prevent callout */
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.pressed {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}
