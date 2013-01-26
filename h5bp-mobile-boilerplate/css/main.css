@@ -113,12 +113,10 @@ textarea {
 
 
 #footArea {
-	//background: url('../img/sprite.png') no-repeat -10px -310px;
-	height: 40px;
-    width: 100%;
-    position: relative;
-    top: 230px;	
     display: none;
+    height: 40px;
+    position: absolute;
+    top: 399px;
 }
 
 #footLinks {
@@ -136,11 +134,11 @@ textarea {
 
 
 #slideUpLinksContainer {
-    background: url("../img/sprite.png") no-repeat scroll -10px -354px transparent;
-    height: 21px;
-   // position: fixed;
-    //bottom: 0;
-    width: 320px;
+background: url("../img/sprite.png") no-repeat scroll -10px -354px transparent;
+top: 0;
+height: 21px;
+position: absolute;
+width: 320px;
 }
 
 .slideUpLinks {
@@ -338,7 +336,7 @@ color: #FFF;
 width: 231px;
 height: 25px;
 position: relative;
-top: 80px;
+top: 68px;
 }
 
 
