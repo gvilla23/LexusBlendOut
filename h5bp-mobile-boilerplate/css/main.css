@@ -24,6 +24,7 @@ body {
 }
 
 a {
+    display: block;
     color: #00e;
     text-decoration: none;
 }
@@ -70,13 +71,19 @@ textarea {
 
 
 #container{
-	background: url('../img/yourMoveBG.jpg') no-repeat 0 0 #313131;
 	width: 320px;
 	height: 460px;
+    background-color: #313131;
 }
 
-#containerVideoRina{
-	background: url('../img/videoRinaBG.jpg') no-repeat 0 0 #313131;
+.commonBG{
+    background: url('../img/yourMoveBG.jpg') no-repeat 0 0;
+    width: 320px;
+    height: 460px;
+}
+
+.videoRina{
+	background: url('../img/videoRinaBG.jpg') no-repeat 0 0;
 	width: 320px;
 	height: 460px;
 }
@@ -134,11 +141,11 @@ textarea {
 
 
 #slideUpLinksContainer {
-background: url("../img/sprite.png") no-repeat scroll -10px -354px transparent;
-top: 0;
-height: 21px;
-position: absolute;
-width: 320px;
+  background: url("../img/sprite.png") no-repeat scroll -10px -354px transparent;
+  height: 25px;
+  position: absolute;
+  top: 436px;
+  width: 320px;
 }
 
 .slideUpLinks {
@@ -155,8 +162,8 @@ width: 320px;
     width: 298px;
 }
 
-.blocklink {
-	position:absolute;
+#socialIcons li a {
+    display: block;
 	top:0px;
 	left:0px;
 	width:100%;
@@ -177,7 +184,7 @@ width: 320px;
 
 
 
-
+.blocklink {position:absolute;top:0px;left:0px;width:100%;height:100%;display:block;}
 
 
 
@@ -229,7 +236,6 @@ width: 320px;
 }
 
 
-
 #socialIcons {
    // border: 1px solid white;
     height: 43px;
@@ -241,7 +247,7 @@ width: 320px;
 }
 
 
-#socialIcons li{
+#socialIcons li {
 float: left;
 list-style: none;
 margin: 0 30px 0 0px;
