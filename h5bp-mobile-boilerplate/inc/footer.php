@@ -2,7 +2,7 @@
 <div id="footArea">
   <ul id="footLinks">
   <li id="shareLink"><a href="social.php"><img src="img/footerShareLink_off.jpg" alt="footerShareLink_off" width="106" height="40"></a></li>
-  <li id="lexusLink"><a href="http://www.lexuxsblendout.com"><img src="img/footerLexusLink.jpg" alt="footerLexusLink" width="108" height="40"></a></li>
+  <li id="lexusLink"><a href="http://www.lexus.com/IS-2014/"><img src="img/footerLexusLink.jpg" alt="footerLexusLink" width="108" height="40"></a></li>
   <li id="infoLink"><a href="about.php"><img src="img/footerShareInfo_off.jpg" alt="footerShareInfo_off" width="106" height="40"></a></li>
   </ul>
 </div>
@@ -12,21 +12,13 @@
 </div>
 </div>
 
-<script src="js/vendor/zepto.min.js"></script>
-<script src="js/helper.js"></script>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script> 
-  $(document).ready(function(){
-      $("#slideUpLinksContainer").click(function(){
-        $("#footArea").slideToggle();
-        $("#slideUpLinksdown").toggleClass("slideUpLinksOff");			
-      });
-    });
 
-  setTimeout(function () {
-  window.scrollTo(0, 1);
-  }, 2000);
-</script> 
+
+<!-- <script src="js/vendor/zepto.min.js"></script>
+<script src="js/helper.js"></script>-->
+<script src="js/hideAddressBar.js"></script> 
+<!-- // verify screen orientation 
+  <script src="js/theOrient.js"></script> -->
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>

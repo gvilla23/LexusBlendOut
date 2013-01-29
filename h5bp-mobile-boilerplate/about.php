@@ -4,8 +4,18 @@
   include_once("inc/header.php");
 ?>
 
- <!--start typing html/body text here -->
- 
+
+<!-- page specific script -->
+ <script>
+$(document).ready(function(){
+$("#slideUpLinksContainer").trigger("click");
+ });
+</script>
+<!-- page specific script /-->
+
+
+
+<!--start typing html/body text here -->
 <div id="container" class="commonBG">
            
  <div id="aboutTitle"></div> 
@@ -14,9 +24,11 @@
     </div>
 <div id="aboutVideo"><a  href="#"><img src="img/videoReveal.jpg" alt="videoReveal" width="303" height="181" border="0"></a></div>
  
- <div id="toc">TERMS &amp; CONDITONS<br />
- Lorem shizzlin dizzle dolizzle the bizzle doggy
+ <div id="toc"><a href="tac.php">TERMS &amp; CONDITONS<br />
+ Lorem shizzlin dizzle dolizzle the bizzle doggy</a>
  </div> 
 	
 
+
 <?php include_once("inc/footer.php");?> 
+

@@ -8,8 +8,9 @@ function showProgress(){
 
 /* define function that executes when movie loading is complete */
 function movieLoaded(){
-  document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
-  document.movie1.Play()
+  //document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
+  //movie1.Stop()
+  //alert("stoped");
   alert("stoped");
 }
 
@@ -41,7 +42,7 @@ function RegisterListener(eventName, objID, embedID, listenerFcn){
 
 /* define a single function that registers all listeners to call onload */
 function RegisterListeners(){
-  RegisterListener('qt_progress', 'movie1', 'qtmovie_embed', showProgress);
+  //RegisterListener('qt_progress', 'movie1', 'qtmovie_embed', showProgress);
   RegisterListener('qt_load', 'movie1', 'qtmovie_embed', movieLoaded);
   RegisterListener('qt_ended', 'movie1', 'qtmovie_embed', movieEnded);
 }
