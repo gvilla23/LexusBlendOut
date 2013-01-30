@@ -1,3 +1,43 @@
+<?php
+function curPageName() {
+ return substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+}
+//echo "The current page name is ".curPageName();
+
+
+
+
+
+
+
+//footer states for social and about page
+if(curPageName() == "social.php"):
+    $socialState = "on";
+else:
+    $socialState = "off";
+endif;
+
+if(curPageName() == "about.php"):
+   $aboutState = "on";
+else:
+    $aboutState = "off";
+endif;
+
+
+  
+
+
+
+?>
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
 <!--[if (gt IEMobile 7)|!(IEMobile)]><!--> 

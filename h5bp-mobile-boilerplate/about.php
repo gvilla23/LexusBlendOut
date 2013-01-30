@@ -20,13 +20,19 @@ $("#slideUpLinksContainer").trigger("click");
            
  <div id="aboutTitle"></div> 
     <div id="aboutText">
-	    Lorem shizzlin dizzle dolizzle the bizzle doggy, gangster adipiscing rizzle. Nullizzle sapizzle velizzle, dang funky 	  fresh, suscipizzle shit, sure vel, arcu. Pellentesque egizzle tortizzle. Fo shizzle mah nizzle fo rizzle, mah home g-dizzle eros.
+<ul>    	
+<li>Bold, new styling and sleek lines featuring Lexus' signature spindle grille</li>
+<li>A powerful and aggressive stance emphasized by the new flared wheel arches</li>
+<li>An entirely redesigned, driver-focused cockpit inspired by the iconic LFA</li>
+<li>Available in both rear-wheel and all-wheel drive versions</li>
+<li>Available June 2013</li>
+</ul>
+
     </div>
-<div id="aboutVideo"><a  href="#"><img src="img/videoReveal.jpg" alt="videoReveal" width="303" height="181" border="0"></a></div>
+<div id="aboutVideo"><a  href="videoPlaypreRoll.php"><img src="img/videoReveal.jpg" alt="videoReveal" width="303" height="181" border="0"></a></div>
  
- <div id="toc"><a href="tac.php">TERMS &amp; CONDITONS<br />
- Lorem shizzlin dizzle dolizzle the bizzle doggy</a>
- </div> 
+<div id="toc"><a href="tac.php">TERMS &amp; CONDITONS</a><br />
+</div> 
 	
 
 

@@ -19,8 +19,10 @@ textarea {
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 0.7em;
+    color: #ffffff;
+    line-height: 1.1;
+
 }
 
 a {
@@ -147,7 +149,18 @@ textarea {
 	float: left;
     height: 40px;
     list-style: none;
-    
+}
+
+ul #shareLink {
+width: 106px;
+}
+
+ul #lexusLink {
+width: 108px;
+}
+
+ul #infoLink {
+width: 106px;
 }
 
 
@@ -160,14 +173,14 @@ textarea {
 }
 
 .slideUpLinks {
-    background: url("../img/sprite.png") no-repeat scroll -10px -67px transparent;
+    background: url('../img/sprite.png') no-repeat -11px -381px;
     height: 21px;
     margin: 0 auto;
     width: 298px;
 }
 
 .slideUpLinksOff {
-	background: url('../img/sprite.png') no-repeat -11px -381px;
+    background: url("../img/sprite.png") no-repeat scroll -10px -67px transparent;
     height: 21px;
     margin: 0 auto;
     width: 298px;
@@ -349,7 +362,7 @@ background: url('../img/sprite.png') no-repeat -331px -385px;
 width: 147px;
 height: 17px;
 margin: 0 0 0 10px;
-top: 50px;
+top: 20px;
 position: relative;
 }
 
@@ -358,17 +371,29 @@ margin: 5px 0 20px 10px;
 font-size: 13px;
 line-height: 15px;
 color: #FFF;
-width: 95%;	
+width: 90%;	
 position: relative;
-top: 50px;
+top: 20px;
 }
 
 #aboutVideo {
 margin: 0 auto;
 position: relative;
-top: 50px;
+top: 15px;
 width: 303px;
 }
+
+
+
+
+#aboutText ul {
+    margin: 0 0 0 -25px;
+}
+#aboutText li {
+    margin: 5px 0 0 0;
+}
+
+
 
 .exploreBanner {
 bottom: -36px;
@@ -390,10 +415,15 @@ position: relative;
 top: 68px;
 }
 
+#tacPage {
+margin: 0 auto;
+width: 95%;
+height: 415px;
+overflow: scroll;
+padding: 0 0 30px 0;
 
 
-
-
+}
 
 
 

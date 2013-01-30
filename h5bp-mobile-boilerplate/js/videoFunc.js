@@ -9,9 +9,9 @@ function showProgress(){
 /* define function that executes when movie loading is complete */
 function movieLoaded(){
   //document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
-  //movie1.Stop()
+  //$(movie1.Stop());
   //alert("stoped");
-  alert("stoped");
+  alert("stoped ggggggg");
 }
 
 /* define function that executes when movie ended  */
