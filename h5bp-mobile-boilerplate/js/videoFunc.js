@@ -11,7 +11,10 @@ function movieLoaded(){
   //document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
   //$(movie1.Stop());
   //alert("stoped");
-  alert("stoped ggggggg");
+  //$("#slideUpLinksContainer").trigger("click");
+ // alert("stoped ggggggg");
+elem.click();
+cosole.log("videoFunc.js");
 }
 
 /* define function that executes when movie ended  */

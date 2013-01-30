@@ -4,13 +4,10 @@
   include_once("inc/header.php");
 ?>
 
-<!-- page specific script -->
- <script>
-$(document).ready(function(){
-$("#slideUpLinksContainer").trigger("click");
- });
-</script>
-<!-- page specific script /-->
+
+
+ <!-- css nedded for each page that needs to support landscape orientation-->
+<link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> 
 
 <!--start typing html/body text here -->
  

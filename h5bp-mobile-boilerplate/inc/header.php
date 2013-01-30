@@ -62,24 +62,38 @@ endif;
 
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" media="all and (orientation:portrait)" href="css/main.css">
-        <link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css">
+        <link rel="stylesheet" href="css/main.css">
+       <!--  <link rel="stylesheet" media="all and (orientation:portrait)" href="css/main.css">
+        <link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> -->
         <!-- <link rel="stylesheet" href="css/main.css">
-       ?php echo $addCSS; ?>  -->
-        <script src="http://code.jquery.com/jquery.min.js"></script>
+       ?php echo $addCSS; ?>  
+        <script src="http://code.jquery.com/jquery.min.js__"></script>
+        <script src="js/lineUpSlider.js____"></script> -->
       <!--  <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
-        <script>
-            $(document).ready(function(){
-                $("#slideUpLinksContainer").click(function(){
-                    $(".exploreBanner").toggleClass("exploreBannerBump");
-                    $("#footArea").slideToggle(100);
-                    $("#slideUpLinksdown").toggleClass("slideUpLinksOff"); 
-                   
-                });
+      
+      <script src="js/AC_QuickTime.js"></script>
+<script src="http://code.jquery.com/jquery.min.js"></script>
 
-            });
-        </script>
+<script>
+$(document).ready(function(){
+
+   
+    
+
+$("#slideUpLinksContainer").click(function(){
+$(".exploreBanner").toggleClass("exploreBannerBump");
+$("#footArea").slideToggle(400);
+$("#slideUpLinksdown").toggleClass("slideUpLinksOff"); 
+});
+
+});
+
+</script>
+
+
+
     </head>
-    <body onload="RegisterListeners()">
+     <!-- <body>-->
+  <body onload="RegisterListeners()"> 
 
 

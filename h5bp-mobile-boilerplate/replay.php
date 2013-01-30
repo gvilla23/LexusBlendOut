@@ -4,21 +4,8 @@
   include_once("inc/header.php");
 ?>
 
- <script>
-$(document).ready(function(){
-//$("#slideUpLinksContainer").triggerHandler("click");
-
-//setTimeout(function() {
- //   $("#footArea").slideToggle(100);
-//	}, 5000)
-
- });
-</script>
-
-
-<script>
-
-</script>
+ <!-- css nedded for each page that needs to support landscape orientation-->
+<link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> 
 
  <!--start typing html/body text here -->
 

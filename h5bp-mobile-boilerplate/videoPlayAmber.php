@@ -1,5 +1,4 @@
- 
-<script src="js/AC_QuickTime.js"></script>
+
 
  <?
   $title = "Amber Video"; // this is for <title>
@@ -18,11 +17,14 @@ if ($_GET["replay"])
 ?>
 
 
+ <!-- css nedded for each page that needs to support landscape orientation-->
+<link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> 
+
 <div id="container">
 
 <div>
 <script language="javascript" type="text/javascript">
-  QT_WriteOBJECT('videos/iPhone4_Amber-WIREDRIVE.mov' , '320', '460', '', 'EnableJavaScript', 'True', 'Scale', 'Aspect', 'Autoplay', 'True', 'Controller', 'False',
+  QT_WriteOBJECT('videos/iPhone4_Amber.mp4' , '320', '460', '', 'EnableJavaScript', 'True', 'Scale', 'Aspect', 'Autoplay', 'True', 'Controller', 'False',
   'postdomevents', 'True', 'emb#NAME' , 'movie1' , 'obj#id' , 'movie1', 'emb#id',
   'qtmovie_embed');
 

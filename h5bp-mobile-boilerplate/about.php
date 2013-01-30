@@ -5,6 +5,10 @@
 ?>
 
 
+ <!-- css nedded for each page that needs to support landscape orientation-->
+<link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> 
+
+
 <!-- page specific script -->
  <script>
 $(document).ready(function(){

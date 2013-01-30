@@ -84,7 +84,7 @@ textarea {
 }
 
 .videoRina{
-	background: url('../img/videoRinaBG.jpg') no-repeat 0 0;
+	background: url('../img/videoRinaBG2.jpg') no-repeat 0 0;
 	width: 320px;
 	height: 460px;
 }
@@ -412,7 +412,7 @@ color: #FFF;
 width: 231px;
 height: 25px;
 position: relative;
-top: 68px;
+top: 25px;
 }
 
 #tacPage {

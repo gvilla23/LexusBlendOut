@@ -15,9 +15,14 @@
 
 
 
+
+<script src="http://code.jquery.com/jquery.min.js__"></script>
+<script src="js/hideAddressBar.js"></script> 
+
+
 <!-- <script src="js/vendor/zepto.min.js"></script>
 <script src="js/helper.js"></script>-->
-<script src="js/hideAddressBar.js"></script> 
+
 <!-- // verify screen orientation 
   <script src="js/theOrient.js"></script> -->
 
@@ -29,5 +34,9 @@
   s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+
+
 </body>
 </html>
+
+
