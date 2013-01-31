@@ -7,11 +7,11 @@
 // page specific functions
 if ($_GET["replay"])
   {
-  echo "<script src ='js/videoFunc.js'></script>";
+  echo "<script src ='js/videofunc.js'></script>";
   }
   else
   {
- echo "<script src ='js/nextMovieRina.js'></script>";
+ echo "<script src ='js/nextmovierina.js'></script>";
   }
 ?>
 
@@ -27,12 +27,12 @@ if ($_GET["replay"])
 
 <div>
 <script language="javascript" type="text/javascript">
-   QT_WriteOBJECT('videos/iPhone4_Rina.mp4' , '320', '460', '', 'EnableJavaScript', 'True', 'scale', 'aspect', 'Autoplay', 'true', 'controller', 'false',
+   QT_WriteOBJECT('videos/iPhone4_rina.mp4' , '320', '460', '', 'EnableJavaScript', 'True', 'scale', 'aspect', 'Autoplay', 'true', 'controller', 'false',
   'postdomevents', 'True', 'emb#NAME' , 'movie1' , 'obj#id' , 'movie1', 'emb#id',
   'qtmovie_embed') ;
 
+  RegisterListeners();
 
-    // $(document.movie1.Stop());
 </script>
 <a id="playMovie1" href="javascript:document.movie1.Play();">javascript:document.movie1.Play()</a>
 

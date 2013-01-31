@@ -1,4 +1,4 @@
-function hideAddressBar()
+function hideaddressbar()
 {
   if(!window.location.hash)
   {
@@ -11,7 +11,7 @@ function hideAddressBar()
   }
 }
  
-window.addEventListener("load", function(){ if(!window.pageYOffset){ hideAddressBar(); } } );
-window.addEventListener("orientationchange", hideAddressBar );
+window.addEventListener("load", function(){ if(!window.pageYOffset){ hideaddressbar(); } } );
+window.addEventListener("orientationchange", hideaddressbar );
 
 

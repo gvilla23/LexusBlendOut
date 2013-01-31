@@ -1,5 +1,5 @@
  <?
-  $title = "Video Jodi"; // this is for <title>
+  $title = "Video Amber"; // this is for <title>
   //$addCSS = ""; //custom CSS for this page only
   include_once("inc/header.php");
 ?>
@@ -8,14 +8,16 @@
 <link rel="stylesheet" media="all and (orientation:landscape)" href="css/portrait.css"> 
 
  <!-- bottom nav popup and popout for videoPlay page(s) -->
-<script src="js/lineUpSlider.js"></script> 
+<script src="js/lineupslider.js"></script> 
+
+
  <!--start typing html/body text here -->
  
-<div id="container" class="videoJodi">
+<div id="container" class="videoAmber">
            
 	<div id="lineupTitle"></div> 
-	<div id="lineupTitleJodi"></div> 
-	<div id="playIcon"><a href="videoplayjodi.php" class="blocklink"></a></div> 
+	<div id="lineupTitleAmber"></div> 
+	<div id="playIcon"><a href="videoplayamber.php" class="blocklink"></a></div> 
 	
 	
  

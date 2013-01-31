@@ -5,11 +5,6 @@ function curPageName() {
 //echo "The current page name is ".curPageName();
 
 
-
-
-
-
-
 //footer states for social and about page
 if(curPageName() == "social.php"):
     $socialState = "on";
@@ -23,17 +18,7 @@ else:
     $aboutState = "off";
 endif;
 
-
-  
-
-
-
 ?>
-
-
-
-
-
 
 
 
@@ -71,8 +56,8 @@ endif;
         <script src="js/lineUpSlider.js____"></script> -->
       <!--  <script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
       
-      <script src="js/AC_QuickTime.js"></script>
-<script src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="js/ac_quicktime.js"></script>
+      <script src="http://code.jquery.com/jquery.min.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -89,11 +74,8 @@ $("#slideUpLinksdown").toggleClass("slideUpLinksOff");
 });
 
 </script>
+</head>
 
-
-
-    </head>
-     <!-- <body>-->
-  <body onload="RegisterListeners()"> 
+<body> 
 
 

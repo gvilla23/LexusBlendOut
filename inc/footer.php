@@ -16,8 +16,8 @@
 
 
 
-<script src="http://code.jquery.com/jquery.min.js__"></script>
-<script src="js/hideAddressBar.js"></script> 
+
+<script src="js/hideaddressbar.js"></script> 
 
 
 <!-- <script src="js/vendor/zepto.min.js"></script>

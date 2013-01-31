@@ -1,6 +1,6 @@
 /* define function that executes when movie ended  */
 function movieEnded(){
-  location.href = 'videoPageAmber.php';
+  location.href = 'videopagejodi.php';
 }
 
 /* define function that adds another function as a DOM event listener */
@@ -25,3 +25,4 @@ function RegisterListener(eventName, objID, embedID, listenerFcn){
 function RegisterListeners(){
   RegisterListener('qt_ended', 'movie1', 'qtmovie_embed', movieEnded);
 }
+

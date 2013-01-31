@@ -13,7 +13,7 @@
 <div id="container" class="commonBG">
 
 <div id="yourMove"></div> 
-<div id="bringModels"><a href="videoPageRina.php" class="blocklink"> &nbsp; </a></div> 
+<div id="bringModels"><a href="videopagerina.php" class="blocklink"> &nbsp; </a></div> 
 <div id="noMag"><a href="#" class="blocklink"> &nbsp; </a></div> 
  
 <?php include_once("inc/footer.php");?> 

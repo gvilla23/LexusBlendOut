@@ -14,7 +14,7 @@ function movieLoaded(){
   //$("#slideUpLinksContainer").trigger("click");
  // alert("stoped ggggggg");
 elem.click();
-cosole.log("videoFunc.js");
+cosole.log("videofunc.js");
 }
 
 /* define function that executes when movie ended  */
