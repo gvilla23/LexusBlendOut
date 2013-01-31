@@ -25,15 +25,15 @@ $("#slideUpLinksContainer").trigger("click");
  <div id="aboutTitle"></div> 
     <div id="aboutText">
 <ul>    	
-<li>Bold, new styling and sleek lines featuring Lexus' signature spindle grille</li>
-<li>A powerful and aggressive stance emphasized by the new flared wheel arches</li>
-<li>An entirely redesigned, driver-focused cockpit inspired by the iconic LFA</li>
-<li>Available in both rear-wheel and all-wheel drive versions</li>
-<li>Available June 2013</li>
+<li><span>Bold, new styling and sleek lines featuring Lexus' signature spindle grille</span></li>
+<li><span>A powerful and aggressive stance emphasized by the new flared wheel arches</span></li>
+<li><span>An entirely redesigned, driver-focused cockpit inspired by the iconic LFA</span></li>
+<li><span>Available in both rear-wheel and all-wheel drive versions</span></li>
+<li><span>Available June 2013</span></li>
 </ul>
 
     </div>
-<div id="aboutVideo"><a  href="videoPlaypreRoll.php"><img src="img/videoReveal.jpg" alt="videoReveal" width="303" height="181" border="0"></a></div>
+<div id="aboutVideo"><a href="videoplaypreroll.php"><img src="img/videoReveal.jpg" height="145" border="0"></a></div>
  
 <div id="toc"><a href="tac.php">TERMS &amp; CONDITONS</a><br />
 </div> 

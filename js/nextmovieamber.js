@@ -1,3 +1,14 @@
+
+function movieLoaded(){
+  //document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
+  //$(movie1.Stop());
+  //alert("stoped");
+  //$("#slideUpLinksContainer").trigger("click");
+ // alert("stoped ggggggg");
+//elem.click();
+//cosole.log("videofunc.js");
+}
+
 /* define function that executes when movie ended  */
 function movieEnded(){
   location.href = 'replay.php';
@@ -23,5 +34,6 @@ function RegisterListener(eventName, objID, embedID, listenerFcn){
 
 /* define a single function that registers all listeners to call onload */
 function RegisterListeners(){
+  RegisterListener('qt_load', 'movie1', 'qtmovie_embed', movieLoaded);
   RegisterListener('qt_ended', 'movie1', 'qtmovie_embed', movieEnded);
 }

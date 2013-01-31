@@ -16,7 +16,7 @@
 		<div id="replayAmber"><a href="videoplayamber.php?replay=yes"><img src="img/replayAmber.jpg" alt="replayAmber" width="104" height="345"></a></div>
 	</div>
 
-<div class="exploreBanner"><a  href="http://www.lexusblendout.com"><img src="img/exploreISbanner.jpg" alt="exploreISbanner" width="320" height="55"></a></div>
+<div class="exploreBanner"><a  href="http://www.lexus.com/IS-2014"><img src="img/exploreISbanner.jpg" alt="exploreISbanner" width="320" height="55"></a></div>
 
  
 <?php include_once("inc/footer.php");?> 

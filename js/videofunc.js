@@ -11,9 +11,9 @@ function movieLoaded(){
   //document.getElementById("loadStatus").innerHTML = "Movie Loaded!!!" ;
   //$(movie1.Stop());
   //alert("stoped");
-  //$("#slideUpLinksContainer").trigger("click");
- // alert("stoped ggggggg");
-elem.click();
+// Works on Reply in safari for pop up....
+//alert("stoped ggggggg");
+//elem.click();
 cosole.log("videofunc.js");
 }
 
