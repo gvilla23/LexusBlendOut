@@ -1,6 +1,6 @@
 /* define function that executes when movie ended  */
 function movieEnded(){
-  location.href = 'videopageamber.php';
+  location.href = 'videoplayamber23.php';
 }
 
 /* define function that adds another function as a DOM event listener */

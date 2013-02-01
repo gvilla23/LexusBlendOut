@@ -7,6 +7,7 @@ function movieLoaded(){
  // alert("stoped ggggggg");
 //elem.click();
 //cosole.log("videofunc.js");
+document.movie1.Stop();
 }
 
 /* define function that executes when movie ended  */

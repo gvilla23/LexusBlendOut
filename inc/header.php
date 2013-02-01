@@ -62,13 +62,16 @@ endif;
 <script>
 $(document).ready(function(){
 
-   
-    
-
 $("#slideUpLinksContainer").click(function(){
 $(".exploreBanner").toggleClass("exploreBannerBump");
 $("#footArea").slideToggle(400);
 $("#slideUpLinksdown").toggleClass("slideUpLinksOff"); 
+});
+
+$("#overlayLink").click(function(){
+$(this).fadeOut();
+
+
 });
 
 });

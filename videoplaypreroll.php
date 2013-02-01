@@ -24,7 +24,7 @@
   'postdomevents', 'True', 'emb#NAME' , 'movie1' , 'obj#id' , 'movie1', 'emb#id',
   'qtmovie_embed');
 
-
+  RegisterListeners();
 
 </script>
 <div>

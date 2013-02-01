@@ -20,7 +20,7 @@ textarea {
 
 body {
     font-size: 0.7em;
-    color: #ffffff;
+    color: #000000;
     line-height: 1.1;
 
 }
@@ -202,7 +202,6 @@ width: 106px;
 
 #slideUpToggle {
     background-color: #000000;
-    border: 1px solid red;
     color: white;
     float: left;
     height: 50px;
@@ -210,6 +209,15 @@ width: 106px;
     padding: 8px;
     width: 200px;
 }
+
+
+#playOverlay  {
+    height: 380px;
+    opacity: 0.6;
+    position: absolute;
+    width: 320px;
+    background-color: #313131;
+  }
 
 
 
@@ -229,20 +237,24 @@ width: 106px;
 #playIcon {
     background: url("../img/sprite.png") no-repeat scroll -10px -10px transparent;
     height: 55px;
+    left: 132px;
     margin: 0 auto;
-    position: relative;
-    top: 172px;
+    position: absolute;
+    top: 210px;
     width: 54px;
+    display: none;
 }
 
 
 #lineupTitle {
     background: url("../img/sprite.png") no-repeat scroll -9px -223px transparent;
     height: 20px;
+    left: 52px;
     margin: 0 auto;
-    position: relative;
-    top: 160px;
+    position: absolute;
+    top: 145px;
     width: 216px;
+    z-index: 2;
 }
 
 #lineupTitleRina {
@@ -263,10 +275,12 @@ width: 106px;
 }
 #lineupTitleAmber { background: url('../img/sprite.png') no-repeat -314px -66px transparent;     
     margin: 0 auto;
-    position: relative;
-    top: 165px;
+    position: absolute;
+    top: 170px;
     width: 122px; 
     height: 18px;
+    z-index: 2;
+    left: 100px;
 }
 
 
@@ -286,7 +300,6 @@ width: 106px;
 
 
 #socialIcons {
-   // border: 1px solid white;
     height: 43px;
     margin: 0 auto;
     padding: 0;
@@ -431,9 +444,14 @@ margin: 0 auto;
 width: 95%;
 height: 415px;
 overflow: scroll;
+overflow-x: hidden;
 padding: 0 0 30px 0;
+color: #FFFFFF;
+}
 
-
+#tacPage a {
+color: #FF0000;
+letter-spacing: 1px;
 }
 
 
